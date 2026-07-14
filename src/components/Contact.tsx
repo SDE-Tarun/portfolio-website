@@ -93,7 +93,7 @@ const Contact = () => {
             >
               Linkedin <MdArrowOutward />
             </a>
-            <a
+            {/* <a
               href={config.contact.twitter}
               target="_blank"
               rel="noopener noreferrer"
@@ -101,8 +101,8 @@ const Contact = () => {
               className="contact-social"
             >
               Twitter <MdArrowOutward />
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href={config.contact.facebook}
               target="_blank"
               rel="noopener noreferrer"
@@ -110,8 +110,8 @@ const Contact = () => {
               className="contact-social"
             >
               Facebook <MdArrowOutward />
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href={config.contact.instagram}
               target="_blank"
               rel="noopener noreferrer"
@@ -119,7 +119,7 @@ const Contact = () => {
               className="contact-social"
             >
               Instagram <MdArrowOutward />
-            </a>
+            </a> */}
           </div>
           <div className="contact-box">
             <h2>

@@ -1,193 +1,160 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Tarun",
+        fullName: "Tarun Kumar",
+        title: "Full-Stack Developer",
+        description: "Full-Stack Developer building modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "SDE-Tarun",
+        email: "tarunkumar23@gmail.com",
+        location: "New Delhi, India",
     },
     about: {
-        title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
-    },
+  title: "About Me",
+  description: "I am Tarun Kumar, a passionate Full Stack Developer who loves turning ideas into scalable web applications. With over 3 years of hands-on experience in React.js, Node.js, Express.js, MongoDB, and modern JavaScript, I've built production-ready applications, secure REST APIs, and responsive user interfaces. I enjoy working across the entire development lifecycle—from designing intuitive frontends to developing efficient backend systems and deploying reliable solutions. I'm driven by continuous learning, clean architecture, performance optimization, and building products that create real business impact."
+},
     experiences: [
-        {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
-            responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
-            ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
-        },
-        {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
-            responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
-            ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
-        },
-        {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
-            responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
-        }
-    ],
-    projects: [
-        {
-            id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
-        },
-        {
-            id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
-        },
-        {
-            id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
-        },
-        {
-            id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
-        },
-        {
-            id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
-        },
-        {
-            id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
-        },
-        {
-            id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
-        }
-    ],
-    contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+    {
+        position: "Software Developer",
+        company: "GLA University",
+        period: "Sep 2025 - Dec 2025",
+        location: "Mathura, Uttar Pradesh, India",
+        description: "Worked on the LMS Portal to develop a role-based Discussion Forum module. Built secure frontend and backend features, integrated REST APIs, and improved the learning workflow for faculty and students.",
+        responsibilities: [
+            "Developed the Discussion Forum module using React.js and LoopBack",
+            "Built secure REST APIs with JWT authentication and RBAC",
+            "Integrated MySQL for course, batch, and user management",
+            "Collaborated with the team to deliver production-ready features"
+        ],
+        technologies: ["React.js", "LoopBack", "Node.js", "MySQL", "REST APIs", "JWT"]
     },
-    skills: {
-        develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
-        },
-        design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
-        }
+    {
+        position: "Full Stack Developer",
+        company: "Freelance",
+        period: "Feb 2025 - Aug 2025",
+        location: "Remote",
+        description: "Designed, developed, and deployed complete MERN stack web applications for clients, handling everything from requirement gathering to production deployment.",
+        responsibilities: [
+            "Built full-stack MERN applications from scratch",
+            "Implemented JWT authentication and role-based access",
+            "Developed REST APIs and integrated MongoDB",
+            "Deployed and maintained production-ready applications"
+        ],
+        technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "REST APIs"]
+    },
+    {
+        position: "Full Stack Developer",
+        company: "Coding Blocks Apprenticeship",
+        period: "Sep 2024 - Feb 2025",
+        location: "Delhi, India",
+        description: "Completed an intensive MERN Stack apprenticeship focused on building scalable applications, backend APIs, authentication systems, and deployment workflows.",
+        responsibilities: [
+            "Built full-stack MERN applications",
+            "Implemented authentication and authorization",
+            "Developed REST APIs and database integrations",
+            "Practiced Git workflows and deployment strategies"
+        ],
+        technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Git", "Postman"]
+    },
+    {
+        position: "Technical Support",
+        company: "YogpriDeal",
+        period: "Jul 2023 - May 2024",
+        location: "Delhi, India",
+        description: "Resolved production issues across frontend and backend systems while improving API performance and overall platform stability.",
+        responsibilities: [
+            "Resolved frontend and backend production issues",
+            "Debugged REST APIs and SQL-related problems",
+            "Optimized API response time by around 20%",
+            "Worked closely with developers to ensure stable releases"
+        ],
+        technologies: ["JavaScript", "Node.js", "SQL", "REST APIs", "Postman", "Git"]
+    },
+    {
+        position: "Full Stack Developer",
+        company: "Polestar Solutions",
+        period: "Mar 2022 - Jun 2023",
+        location: "Gurugram, Haryana, India",
+        description: "Developed enterprise HR platform modules, integrated REST APIs, and built scalable frontend and backend features in an Agile environment.",
+        responsibilities: [
+            "Developed user management and workflow modules",
+            "Integrated React frontend with backend REST APIs",
+            "Built reusable UI components and business features",
+            "Optimized performance and resolved production issues"
+        ],
+        technologies: ["React.js", "Node.js", "Express.js", "JavaScript", "MongoDB", "REST APIs"]
     }
+],
+    projects: [
+    {
+        id: 1,
+        title: "LMS Discussion Forum",
+        category: "Enterprise / Full Stack",
+        technologies: "React.js, LoopBack, Node.js, MySQL, JWT, REST APIs",
+        image: "/images/lms-discussion-forum.png",
+        description: "Developed a role-based Discussion Forum module for GLA University's LMS Portal, enabling faculty to manage questionnaires and students to access discussions based on course and batch mappings."
+    },
+    {
+        id: 2,
+        title: "E-Commerce Platform",
+        category: "Full Stack",
+        technologies: "React.js, Node.js, Express.js, MongoDB, JWT, REST APIs",
+        image: "/images/ecommerce-platform.png",
+        description: "Built a complete MERN-based e-commerce platform featuring user authentication, product catalog, shopping cart, admin dashboard, and order management with secure REST APIs."
+    },
+    {
+        id: 3,
+        title: "HR Management Platform",
+        category: "Enterprise",
+        technologies: "React.js, Node.js, REST APIs, JavaScript",
+        image: "/images/hr-platform.png",
+        description: "Developed enterprise HR modules including user management, task workflows, and engagement features with real-time API integration at Polestar Solutions."
+    },
+    {
+        id: 4,
+        title: "Anaplan Internal Tool",
+        category: "Enterprise",
+        technologies: "React.js, Node.js, REST APIs, JavaScript",
+        image: "/images/anaplan-tool.png",
+        description: "Built internal modules including login, user management, and task workflows while integrating backend APIs to improve workflow efficiency and system reliability."
+    },
+    {
+        id: 5,
+        title: "Power BI 2.0 Analytics",
+        category: "Enterprise Analytics",
+        technologies: "SQL, Power BI, Data Validation",
+        image: "/images/powerbi-analytics.png",
+        description: "Contributed to improving dashboard accuracy by validating enterprise datasets, resolving data inconsistencies, and supporting reporting workflows for the EXL client."
+    },
+    {
+        id: 6,
+        title: "REST API Authentication System",
+        category: "Backend",
+        technologies: "Node.js, Express.js, JWT, MongoDB",
+        image: "/images/rest-api-auth.png",
+        description: "Developed secure REST APIs with JWT authentication and Role-Based Access Control (RBAC), implementing protected routes and scalable backend architecture."
+    }
+],
+    contact: {
+        email: "tarunkumar23j@gmail.com",
+        github: "https://github.com/SDE-Tarun",
+        linkedin: "https://www.linkedin.com/in/tarun-kumar-b788a9250",
+    },  
+    skills: {
+    develop: {
+        title: "FULL STACK",
+        description: "Building scalable web applications & REST APIs",
+        details: "Developing production-ready full stack applications using React.js, Node.js, Express.js, and MongoDB. Experienced in authentication, REST API development, database integration, and performance optimization.",
+        tools: ["React.js", "Node.js", "Express.js", "MongoDB", "MySQL", "REST APIs", "JWT", "RBAC", "JavaScript", "Git"]
+    },
+    design: {
+        title: "FRONTEND",
+        description: "Responsive UI & modern web experiences",
+        details: "Creating responsive, reusable, and user-friendly interfaces with React.js, Next.js, Tailwind CSS, and modern JavaScript. Focused on clean UI, API integration, performance, and seamless user experience.",
+        tools: ["React.js", "Next.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Redux", "Responsive Design", "REST API Integration", "Postman"]
+    }
+}
 };
 
 
