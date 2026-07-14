@@ -80,7 +80,7 @@ If you found this useful:
 
 ## 🤝 Connect
 
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
+- LinkedIn: https://www.linkedin.com/in/tarun-kumar-b788a9250/
 
 ---
 
